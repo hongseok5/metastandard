@@ -5,6 +5,14 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+.gradle
+.idea
+
+application-oauth.properties
+
+build
+out
+
 ### STS ###
 .apt_generated
 .classpath
