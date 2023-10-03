@@ -14,7 +14,7 @@ before_install:
         - chmod +x gradlew
 
 before_deploy:
-        - zip -r metastandard*
+        - zip -r metastandard *
         - mkdir -p deploy
         - mv metastandard.zip deploy/metastandard.zip
 
