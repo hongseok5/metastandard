@@ -12,6 +12,6 @@ files:
 
 hooks:
         ApplicationStart:
-                - location: deploy2.sh
+                - location: deploy.sh
                   timeout: 60
                   runas: ubuntu
