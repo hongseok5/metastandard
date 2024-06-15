@@ -1,10 +1,10 @@
 package com.hongseok.metastandard.config.auth;
 
 import lombok.RequiredArgsConstructor;
-//import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
 @RequiredArgsConstructor
-//@EnableWebSecurity
+@EnableWebSecurity
 public class SecurityConfig{
 //public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private final CustomOAuth2UserService customOAuth2UserService;
